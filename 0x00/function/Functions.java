@@ -20,11 +20,10 @@ public class Functions {
         userService.save(user);
     }
 
-    public User saveUserWithoutSideEffects(User user) {
+    public User saveUser(User user){
         return userRepository.save(user);
     }
-
-    public void setRole(User user) {
+    public void setRole(User user){
         user.setRole(user);
     }
 
