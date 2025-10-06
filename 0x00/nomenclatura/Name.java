@@ -18,11 +18,11 @@ public class Name {
 
     public void saveCar() {}
 
-    public void saveUser() {  }
+    public void saveUser() {};
 
-    public void createAccount() {  }
+    public void createAccount() {};
 
-    public void generateContract() {    }
+    public void generateContract() {};
 
     public static final int DAYS_IN_YEAR = 360;
     public static final int HOURS_IN_WEEK = 168;
